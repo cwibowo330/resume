@@ -1,0 +1,123 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background: #ecf0f1;
+    color: #535c68;
+}
+.container {
+    max-width: 960px;
+    text-align: center;
+    margin: 40px auto;
+    padding-left: 10px;
+    @media (min-width: 768px) {
+        padding: 0;
+    }
+}
+.blue {
+    color: #3498db;
+    text-transform: uppercase;
+}
+.bold {
+    font-weight: bold;
+    margin: 17px 0 5px 0;
+
+}
+.sidebar {
+    display: none;
+    @media (min-width: 768px) {
+        vertical-align: top;
+        text-align: right;
+        display: inline-block;
+        width: 30%;
+        padding-right: 20px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        #experience {
+            margin-top: 136px;
+        }
+        #skills {
+            margin-top: 809px;
+        }
+        #contact {
+            margin-top: 178px;
+        }
+    }
+}
+.resume {
+    text-align: left;
+    @media (min-width: 768px) {
+        border-left: 2px solid #535c68;
+        height: 1183px;
+        padding-left: 20px;
+        display: inline-block;
+        width: 60%;
+    }
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #535c68;
+        border-bottom: 3px solid #535c68;
+        line-height: 25px;
+        margin: 20px 0 0;
+        width: 99%;
+        text-transform: uppercase;
+        @media (min-width: 768px) {
+            display: none;
+        }
+    }
+    #resume-contact {
+        h1 {
+            font-size: 35px;
+            text-transform: uppercase;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+    #resume-exp {
+        margin-top: 30px;
+        .point {
+            @media (min-width: 768px) {
+                margin-top: 40px;
+            }
+        }
+        h3 {
+            font-size: 14px;
+        }
+        ul {
+            margin-left: 12px;
+        }
+        li {
+            padding: 10px 0 0 0;
+            list-style: square;
+            font-size: 11px;
+            line-height: 15px;
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+}
+#links {
+    margin: 45px auto 0;
+    a {
+        color: #535c68;
+        text-decoration: none;
+        padding: 0 10px;
+        text-transform: uppercase;
+        font-size: 14px;
+        cursor: pointer;
+        :hover {
+            color: #3498db;
+        }
+        i {
+            font-size: 30px;
+        }
+        span {
+            vertical-align: super;
+            display: none;
+        }
+    }
+}
